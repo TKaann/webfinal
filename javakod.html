@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+	<title>RocketStation</title>
+	<link rel="stylesheet" type="text/css" href="final.css" />
+
+	<title>js sayfasi</title>
+	<style type="text/css">
+		.daire{
+			width: 130px;
+			height: 130px;
+			border-radius: 50%;
+			margin: 20px;
+			float: left;
+		}
+		#kirmizi{
+			background-color:red ;
+		}
+		#siyah{
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+  	
+    <a class="navbar-brand" href="index.html">Anasayfa</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="hakkimizda.html">Hakkimizda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iletisim.html">Iletisim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="adres.html">Adresimiz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javakod.html">js kod</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Urunlerimiz
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="burun.html">Burun Konisi</a></li>
+            <li><a class="dropdown-item" href="kanat.html">Kanatcik</a></li>
+            <li><a class="dropdown-item" href="govde.html">Govde Elemanlari</a></li>
+            <li><a class="dropdown-item" href="parasut.html">Parasutler</a></li>
+            <li><a class="dropdown-item" href="yardim.html">Yardimci Parcalar</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+    <a href="index.html"><img class="logo" src="logo.jpg"></a>
+  </div>
+</nav>
+	<div class="daire" id="kirmizi"></div>
+	<div class="daire" id="siyah"></div>
+
+	<script type="text/javascript">
+		document.getElementById('kirmizi').onclick=function(){
+			document.getElementById('kirmizi').style.display="none";
+		}
+
+
+
+		document.getElementById('siyah').onclick=function(){
+			document.getElementById('siyah').style.display="none";
+		}
+	</script>
+
+</body>
+</html>

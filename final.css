@@ -1,0 +1,41 @@
+.logo{
+	width: 60px;
+	height: 60px;
+	float: right;
+}
+.resim1{
+	height: 993px;
+	width: 2200px;
+}
+.hakkimiz{
+	width: 100%;
+	margin-top: 70px;
+}
+#submit{
+	width: 100%;
+	background-color: #4CAD50;
+	color: white;
+	padding: 14px;
+	margin: 8px 0;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+#submit:hover{
+	background-color: green;
+	
+}
+
+.daire{
+width: 130px;
+height: 130px;
+border-radius: 50%;
+margin: 20px;
+float: left;
+}
+#kirmizi{
+background-color:red ;
+}
+#siyah{
+background-color: black;
+}
